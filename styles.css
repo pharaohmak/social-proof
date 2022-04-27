@@ -1,0 +1,136 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "card-container card-container card-container card-container card-container card-container" "card-container card-container card-container card-container card-container card-container" "card-container card-container card-container card-container card-container card-container" "card-container card-container card-container card-container card-container card-container" "card-container card-container card-container card-container card-container card-container" "card-container card-container card-container card-container card-container card-container" "card-container card-container card-container card-container card-container card-container";
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "main-content main-content rating-container rating-container" "main-content main-content rating-container rating-container" "review-cards review-cards review-cards review-cards" "review-cards review-cards review-cards review-cards";
+    grid-area: card-container;
+}
+
+.main-content {
+    grid-area: main-content;
+}
+
+.rating-container {
+    grid-area: rating-container;
+}
+
+.review-cards {
+    grid-area: review-cards;
+}
+
+.container {
+    padding: 18px;
+    border: 12px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    ;
+}
+
+.main-content {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.rating-container {
+    padding: 18px;
+    border: 12px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.rating1 .rating2 .rating3 {
+    padding: 18px;
+    border: 12px;
+    margin: 12px;
+    background-color: grey;
+    display: grid;
+}
+
+.rating-container aside {
+    background-color: hsl(300, 24%, 96%);
+    padding: 9px;
+    display: flex;
+    margin: 4px;
+    border-radius: 12px;
+    align-content: center;
+    align-items: center;
+    color: hsl(300, 43%, 22%);
+}
+
+.review-cards {
+    padding: 18px;
+    border: 12px;
+    margin: auto;
+    display: flex;
+}
+
+.review-cards article {
+    padding: 10px;
+    border: 12px;
+    margin: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 12px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-header {
+    display: grid;
+    display: inline;
+    justify-content: center;
+    width: auto;
+    height: 1fr;
+}
+
+.card-header h1 {
+    display: grid;
+    align-content: center;
+}
+
+.review-cards article img {
+    height: 35px;
+    width: auto;
+    border-radius: 50%;
+    float: left;
+    padding: 18px;
+}
+
+.review-cards .card-header {
+    text-align: start;
+    padding: 12px;
+    display: grid;
+    display: inline;
+}
+
+.main-header {
+    color: hsl(300, 43%, 22%);
+}
+
+.main-content span {
+    color: hsl(303, 10%, 53%);
+}
+
+.star-icon {
+    padding: 8px;
+}
