@@ -1,4 +1,4 @@
-Social Proof Section
+# Social Proof Section
 
 This project is a solution to the Frontend Mentor Social Proof Section challenge. The aim was to create a visually appealing and responsive social proof section using HTML and CSS. The section includes a header, user ratings, and customer reviews, providing a comprehensive overview of user satisfaction with the products and services.
 
