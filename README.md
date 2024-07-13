@@ -6,7 +6,6 @@ This project is a solution to the [Frontend Mentor Social Proof Section challeng
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
 - [Author](#author)
@@ -15,11 +14,7 @@ This project is a solution to the [Frontend Mentor Social Proof Section challeng
 
 ### Screenshot
 
-![Screenshot of the Social Proof Section](./images/screenshot.png)
-
-### Links
-
-- [Live Site](https://your-live-site-url.com)
+![Screenshot of the Social Proof Section](./design/desktop-design.jpg)
 
 ## My Process
 
