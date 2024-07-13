@@ -1,6 +1,14 @@
 # Frontend Mentor | Social Proof Section
 
-This project is a solution to the [Frontend Mentor Social Proof Section challenge](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). It is built using HTML and CSS.
+This project is a solution to the Frontend Mentor Social Proof Section challenge. The aim was to create a visually appealing and responsive social proof section using HTML and CSS. The section includes a header, user ratings, and customer reviews, providing a comprehensive overview of user satisfaction with the products and services.
+
+## The design features
+
+- A main header highlighting the high number of satisfied users.
+- Three rating sections, each with five-star ratings from different sources.
+- Three customer review cards, each with a profile picture, name, verification status, and a testimonial.
+
+The project utilizes semantic HTML5 for structure and CSS for styling, including Flexbox for layout. Google Fonts were used for typography, ensuring a clean and modern look. This project serves as a practical example of creating a user-focused testimonial section, showcasing design skills and attention to detail.
 
 ## Table of Contents
 
